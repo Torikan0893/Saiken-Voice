@@ -4,7 +4,7 @@ export const Index = () => {
   return (
     <>
       <div className="thumnail">
-        <img src="./src/assets/thumbnail.webp" alt="thumbnail" />
+        <img src="./thumbnail.webp" alt="thumbnail" />
       </div>
       <div className="container">
         <div className="details">

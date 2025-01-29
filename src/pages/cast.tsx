@@ -53,7 +53,7 @@ export const Cast = () => {
       {CASTS.map((cast) => {
         return (
           <div className="cast">
-            <img src={"./src/assets/cast/" + cast.name + ".webp"} alt={cast.name} />
+            <img src={"./cast/" + cast.name + ".webp"} alt={cast.name} />
             <p>{cast.twitter_name}</p>
           </div>
         );
