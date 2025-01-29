@@ -1,0 +1,12 @@
+{ 
+    "rewrites" :  [
+        { 
+            "source": "/about", 
+            "destination": "/" 
+        },
+        { 
+            "source": "/cast", 
+            "destination": "/" 
+        }
+    ] 
+}
