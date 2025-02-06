@@ -35,6 +35,15 @@ body, html {
   max-width: 500px;
   margin: 0 auto;
   padding: 3vw;
+  width: 100%;
+  max-width: 800px;
+  top: -30vh;
+}
+
+@media (max-width: 1000px) {
+  .details {
+    max-width: 80vw;
+  }
 }
 
 .detail h4 {
