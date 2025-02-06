@@ -2,12 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saiken Voice</title>
   </head>
   <body>
+    <div class="background-container"><div class="background"></div></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = scrollTop / docHeight;
+        const background = document.querySelector('.background');
+        const bgHeight = background.clientHeight;
+        const moveDistance = bgHeight - window.innerHeight;
+        background.style.transform = `translateY(-${moveDistance*scrollPercent}px)`;
+    });
+    </script>
   </body>
 </html>

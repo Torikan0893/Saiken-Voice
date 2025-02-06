@@ -1,10 +1,15 @@
-import '../styles/about.css';
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
+import '../styles/about.scss';
 
 export const About = () => {
   return (
-    <>
-      <div className="logo" style={{height: '8vh', backgroundColor: 'blue'}}></div>
-      <div className="details" style={{top: '10vh'}}>
+    <div id="AboutPage">
+      <Header />
+      <div className="EyeCatch">
+        <img src="./logo.webp" alt="thumbnail" />
+      </div>
+      <div className="details">
         <div className="detail">
           <h4>コンセプト</h4>
           <p>
@@ -31,6 +36,7 @@ export const About = () => {
         </div>
 
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
