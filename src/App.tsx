@@ -1,8 +1,5 @@
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
-import { Header } from './components/header'
-import { Footer } from './components/footer'
-
 import { Index } from './pages/index'
 import { About } from './pages/about'
 import { Cast } from './pages/cast'
@@ -22,9 +19,7 @@ function App() {
 
   return (
     <>
-      <Header />
       <RouterProvider router={router} />
-      <Footer />
     </>
   )
 }

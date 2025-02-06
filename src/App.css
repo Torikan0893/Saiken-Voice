@@ -2,27 +2,31 @@
 
 
 body {
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
-.thumnail {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.background-container {
+  position: fixed;
   height: 100vh;
   width: 100vw;
+  background-color: black;
 }
 
-
-.thumnail img {
-  max-height: 100vh;
-  max-width: 100vw;
-}
-
-.container {
-  position: relative;
-  margin: auto;
+.background {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 150%;
+  background-image: url('thumbnail.webp');
+  /* background-size: cover; */
+  background-position: center top;
+  filter: blur(10pt);
+  z-index: -1;
 }
 
 .details {

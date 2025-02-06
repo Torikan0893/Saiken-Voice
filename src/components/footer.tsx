@@ -4,8 +4,7 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <p>© 2025</p>
-        ああああああああああああああああああ
+        <p>© 2025 Huyu2239</p>
       </footer>
     </>
   );
