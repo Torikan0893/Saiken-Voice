@@ -29,7 +29,7 @@ export const Index = () => {
         </div>
         <div className="detail">
           <h4>PLICE</h4>
-          <p>¥2,000(1ドリンク込)</p>
+          <p>¥2,500(1ドリンク込)</p>
         </div>
         <div className="detail">
           <h4>イラスト</h4>
