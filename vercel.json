@@ -7,6 +7,10 @@
         { 
             "source": "/cast", 
             "destination": "/" 
+        },
+        { 
+            "source": "/kowairo", 
+            "destination": "/" 
         }
     ] 
 }
