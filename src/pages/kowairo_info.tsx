@@ -43,7 +43,7 @@ export const KowairoInfo = () => {
         <div className="detail">
           <h4>参加フォーム</h4>
           <p>申込みは
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd5g9XoHqyodjm-7KT1YTgjT1MMrt_M8w51_H2ImrID-BB1Q/viewform'>
+            <a style="color: blue;" href='https://docs.google.com/forms/d/e/1FAIpQLSdd5g9XoHqyodjm-7KT1YTgjT1MMrt_M8w51_H2ImrID-BB1Q/viewform'>
               こちら
             </a>
           </p>
