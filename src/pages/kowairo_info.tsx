@@ -1,8 +1,22 @@
+import { useEffect } from 'react'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
 import '../styles/kowairo_info.scss';
 
 export const KowairoInfo = () => {
+  useEffect(() => {
+    const backgroundElement = document.querySelector('.background') as HTMLElement;
+    if (backgroundElement) {
+      backgroundElement.style.backgroundImage = 'url(https://saiken-voice.vercel.app/kowairo/kowairo.webp)';
+    }
+    
+    return () => {
+      if (backgroundElement) {
+        backgroundElement.style.backgroundImage = 'url(https://saiken-voice.vercel.app/thumbnail.webp)';
+      }
+    };
+  }, []);
+
   return (
     <div id="KowairoInfoPage">
       <Header />
