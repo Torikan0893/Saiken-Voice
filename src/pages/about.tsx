@@ -1,13 +1,12 @@
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
-import '../styles/about.scss';
 
-export const About = () => {
+export default function About() {
   return (
     <div id="AboutPage">
       <Header />
       <div className="EyeCatch">
-        <img src="./logo.webp" alt="thumbnail" />
+        <img src="/logo.webp" alt="thumbnail" />
       </div>
       <div className="details">
         <div className="detail">

@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# #再見ボイス - イベントサイト
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GUMIやIAをはじめ、重音テト、音街ウナ、可不、歌愛ユキだけでなく、話題のずんだもんや琴葉姉妹も！CeVIO・SynthesizerVや、各種トークソフトのキャラクターに焦点を当てたDJイベントのWebサイトです。
 
-Currently, two official plugins are available:
+## 技術構成
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **フレームワーク**: Next.js (Pages Router)
+- **言語**: TypeScript
+- **スタイリング**: SCSS + Tailwind CSS
+- **デプロイ**: Static Site Generation (SSG)
+- **ホスティング**: Vercel
 
-## Expanding the ESLint configuration
+## 開発環境のセットアップ
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```bash
+# 依存関係のインストール
+npm install
 
-- Configure the top-level `parserOptions` property like this:
+# 開発サーバーの起動
+npm run dev
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# 本番ビルド（静的サイトとしてエクスポート）
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ページ構成
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- `/` - トップページ
+- `/about` - イベント概要・アクセス情報
+- `/cast` - DJ/VJ/ゲスト情報
+- `/kowairo` - 声色十色（即売会）詳細
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 機能
+
+- **レスポンシブデザイン**: モバイル・デスクトップ対応
+- **背景スクロール効果**: パララックススクロール
+- **OGP対応**: SNSシェア最適化
+- **404リダイレクト**: 存在しないページは自動でトップページへ
+
+## 開発者情報
+
+- **主催**: 鳥缶 (@Torikan_0893)
+- **イラスト**: 猫橋ねこ (@nekobasi_illust)
+- **開発**: Huyu2239

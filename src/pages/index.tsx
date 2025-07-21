@@ -1,14 +1,18 @@
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
-import '../styles/index.scss';
+import Head from 'next/head'
 
-export const Index = () => {
+export default function Index() {
   return (
-    <div id="IndexPage">
-      <Header />
+    <>
+      <Head>
+        <title>#再見ボイス</title>
+      </Head>
+      <div id="IndexPage">
+        <Header />
       <div className="thumbnail">
-        <img className="characters" src="./characters.webp" alt="thumbnail" />
-        <img className="logo" src="./logo.webp" alt="thumbnail" />
+        <img className="characters" src="/characters.webp" alt="thumbnail" />
+        <img className="logo" src="/logo.webp" alt="thumbnail" />
       </div>
       <div className="details">
         <div className="detail">
@@ -36,7 +40,8 @@ export const Index = () => {
           <p>猫橋ねこ (@nekobasi_illust)</p>
         </div>
       </div>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };

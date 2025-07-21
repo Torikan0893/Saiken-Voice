@@ -3,3 +3,60 @@ header{
   z-index: 100;
   width: 100%;
 }
+
+.hamburger-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.hamburger-button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #374151;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-button:hover {
+  background-color: #4b5563;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 192px;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  z-index: 50;
+}
+
+.hamburger-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hamburger-menu li {
+  list-style: none;
+}
+
+.hamburger-menu a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #374151;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.hamburger-menu a:hover {
+  background-color: #f3f4f6;
+}
