@@ -89,5 +89,5 @@ jspm_packages/
 # TypeScript cache
 *.tsbuildinfo
 
-# Vercel
+# Vercel deployment cache (keep vercel.json)
 .vercel
