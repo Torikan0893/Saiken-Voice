@@ -1,18 +1,17 @@
 import { useEffect } from 'react'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
-import '../styles/kowairo_info.scss';
 
-export const KowairoInfo = () => {
+export default function Kowairo() {
   useEffect(() => {
     const backgroundElement = document.querySelector('.background') as HTMLElement;
     if (backgroundElement) {
-      backgroundElement.style.backgroundImage = 'url(https://saiken-voice.vercel.app/kowairo/kowairo.webp)';
+      backgroundElement.style.backgroundImage = 'url(/kowairo/kowairo.webp)';
     }
     
     return () => {
       if (backgroundElement) {
-        backgroundElement.style.backgroundImage = 'url(https://saiken-voice.vercel.app/thumbnail.webp)';
+        backgroundElement.style.backgroundImage = 'url(/thumbnail_sub2.webp)';
       }
     };
   }, []);
@@ -21,7 +20,7 @@ export const KowairoInfo = () => {
     <div id="KowairoInfoPage">
       <Header />
       <div className="EyeCatch">
-        <img src="kowairo/logo_kowairo.webp" alt="thumbnail" />
+        <img src="/kowairo/logo_kowairo.webp" alt="thumbnail" />
       </div>
       <div className="details">
       <div className="detail">

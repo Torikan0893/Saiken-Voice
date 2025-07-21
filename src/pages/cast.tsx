@@ -1,8 +1,6 @@
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
 
-import "../styles/cast.scss";
-
 type Cast = {"name": string, "twitter_name": string};
 
 const CASTS: Cast[] = [
@@ -61,19 +59,19 @@ const CasrtCard = (props: Cast) => {
   return (
     <div className="CastCard">
       <a href={"https://x.com/" + props.twitter_name} target="_blank">
-        <img src={"./cast/" + props.name + ".webp"} alt={props.name} />
+        <img src={"/cast/" + props.name + ".webp"} alt={props.name} />
       </a>  
       <p>{"@"+props.twitter_name}</p>
     </div>
   );
 }
 
-export const Cast = () => {
+export default function Cast() {
   return (
     <div id="CastPage">
       <Header />
       <div className="EyeCatch">
-        <img src="./logo.webp" alt="thumbnail" />
+        <img src="/logo.webp" alt="thumbnail" />
       </div>
       <div className="details">
         <div className="detail">

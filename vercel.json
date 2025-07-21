@@ -1,16 +1,7 @@
-{ 
-    "rewrites" :  [
-        { 
-            "source": "/about", 
-            "destination": "/" 
-        },
-        { 
-            "source": "/cast", 
-            "destination": "/" 
-        },
-        { 
-            "source": "/kowairo", 
-            "destination": "/" 
-        }
-    ] 
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "trailingSlash": true,
+  "cleanUrls": false
 }
