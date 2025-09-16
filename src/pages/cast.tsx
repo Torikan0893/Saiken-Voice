@@ -37,7 +37,7 @@ const CASTS: Cast[] = [
   },
   {
     "name": "D-6",
-    "twitter_name": "asikan3745",
+    "twitter_name": "yude_dm",
   },
   {
     "name": "D-7",
