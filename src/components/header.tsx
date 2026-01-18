@@ -27,7 +27,7 @@ const HamburgerMenu = () => {
           <ul className="space-y-2">
             <li><a href="/" className="block p-2 hover:bg-gray-100 rounded">Top</a></li>
             <li><a href="/about" className="block p-2 hover:bg-gray-100 rounded">About</a></li>
-            <li><a href="/cast" className="block p-2 hover:bg-gray-100 rounded">Cast</a></li>
+            {/*<li><a href="/cast" className="block p-2 hover:bg-gray-100 rounded">Cast</a></li>*/}
             <li><a href="/kowairo" className="block p-2 hover:bg-gray-100 rounded">声色十色</a></li>
           </ul>
         </motion.div>
