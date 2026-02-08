@@ -38,12 +38,12 @@ export const KowairoInfo = () => {
         </div>
         <div className="detail">
           <h4>参加フォーム</h4>
-          <p>準備中...</p>
-          {/*<p>申込みは
-            <a style={{color: "blue", textDecoration: "underline"}} href='https://docs.google.com/forms/d/e/1FAIpQLSdd5g9XoHqyodjm-7KT1YTgjT1MMrt_M8w51_H2ImrID-BB1Q/viewform'>
+          {/*<p>準備中...</p>*/}
+          <p>申込みは
+            <a style={{color: "blue", textDecoration: "underline"}} href='https://docs.google.com/forms/d/e/1FAIpQLSck661J0K3kI7stpEwin4_l1oyGk4BI15A83F_Nhercp9lyXw/viewform?pli=1'>
               こちら
             </a>
-          </p>*/}
+          </p>
         </div>
         <div className="detail">
           <h4>イラスト</h4>
