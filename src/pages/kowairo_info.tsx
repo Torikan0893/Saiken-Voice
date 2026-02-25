@@ -26,7 +26,11 @@ export const KowairoInfo = () => {
       <div className="details">
       <div className="detail">
           <h4>イベント内容</h4>
-          <p>合成音声オンリー即売会</p>
+          <p>合成音声オンリー即売会 (#再見ボイスとの併催)</p>
+        </div>
+        <div className="detail">
+          <h4>開催日</h4>
+          <p>2026.3.20(金・祝)</p>
         </div>
         <div className="detail">
           <h4>開場・開始</h4>
@@ -44,6 +48,10 @@ export const KowairoInfo = () => {
               こちら
             </a>
           </p>
+        </div>
+        <div className="detail">
+          <h4>場所</h4>
+          <p>広島UP-WARD<br />(広島県広島市中区薬研堀 7-9 三和ビル 6F)</p>
         </div>
         <div className="detail">
           <h4>イラスト</h4>
