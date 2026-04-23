@@ -13,7 +13,7 @@ export const Index = () => {
       <div className="details">
         <div className="detail">
           <h4>DATE</h4>
-          <p>2026.3.20(金・祝)</p>
+          <p>2026.9.20(日)</p>
         </div>
         <div className="detail">
           <h4>PLACE</h4>
