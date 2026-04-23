@@ -30,7 +30,7 @@ export const KowairoInfo = () => {
         </div>
         <div className="detail">
           <h4>開催日</h4>
-          <p>2026.3.20(金・祝)</p>
+          <p>2026.9.20(日)</p>
         </div>
         <div className="detail">
           <h4>開場・開始</h4>
@@ -44,7 +44,7 @@ export const KowairoInfo = () => {
           <h4>参加フォーム</h4>
           {/*<p>準備中...</p>*/}
           <p>申込みは
-            <a style={{color: "blue", textDecoration: "underline"}} href='https://docs.google.com/forms/d/e/1FAIpQLSck661J0K3kI7stpEwin4_l1oyGk4BI15A83F_Nhercp9lyXw/viewform?pli=1'>
+            <a style={{color: "blue", textDecoration: "underline"}} href='https://docs.google.com/forms/d/e/1FAIpQLSePAob5heQM2gAH9m9jzXcEk5A-87YwnYxNQx4i1HCBikNI-g/viewform'>
               こちら
             </a>
           </p>
